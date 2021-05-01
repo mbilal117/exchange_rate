@@ -9,7 +9,7 @@ An API to get exchange rate from one currency - digital or Physical - to another
 * Run python manage.py collectstatic
 
 ## Get
- http://localhost:8000/api/v1/quotes
+ http://localhost:8000/api/v1/quotes/
 ## Response
 [{
     "id": 4,
@@ -32,6 +32,7 @@ An API to get exchange rate from one currency - digital or Physical - to another
 
 
 ## POST
+http://localhost:8000/api/v1/quotes/
 * Params = {
     "from_currency":"BTC",
     "to_currency":"USD"
